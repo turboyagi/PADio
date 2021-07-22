@@ -99,17 +99,21 @@ p {
 /* testimonials */
 
 #testimonials {
-    height: 700px;
+    padding: 7% 15% 0;
     text-align: center;
+    
     background-color: #ef8172;
     color: #fff;
 }
 
 
-
-.carousel-inner{
-    height: 700px;
+.carol-text {
     position: relative;
+    z-index: 1;
+    font-size: 2rem;
+}
+.carousel-inner{
+    height: 500px;
 }
 
 .dad {
@@ -117,7 +121,7 @@ p {
     height: auto;
     border-radius: 100%;
     margin: 20px;
-    position: static;
+
 }
 
 .rm {
@@ -128,13 +132,8 @@ p {
     text-align: center;
 }
 
-.carol-text {
-  margin: 2% 15%;
-}
-
 .text007 {
-    font-size: 2.5rem;
-    margin: 2% 15%;
+    font-size: 2rem;
 }
 
 .l007 {
@@ -155,7 +154,8 @@ p {
     background-color: #ef8172;
     text-align: center;
     padding-bottom: 3%;
-
+    position: relative;
+    z-index: -1;
 }
 
 /* pricing */
@@ -166,11 +166,19 @@ p {
 
 #pricing {
     padding: 100px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.pricebox {
+    padding: 3% 2%;
 }
 
 
 
-
+.size {
+    font-size: 1.2rem;
+}
 
 
 
