@@ -30,8 +30,8 @@ p {
     font-family: "Ubuntu-heavy";
     font-size: 3rem;
     font-weight: bold;
- 
-    
+
+
 }
 
 .nav-item {
@@ -57,14 +57,14 @@ p {
 
 #title {
     background-color: #ff4c68;
-    height: 900px;
+    height: 850px;
     color: white;
 }
 
 #mainpatio {
-    position: relative;
-    
-    width: 60%;
+    position: static;
+
+    width: 100%;
     height: auto;
 }
 
@@ -76,7 +76,7 @@ p {
 /* features */
 
 #features {
-    margin-top: 300px;
+    margin-top: 100px;
     padding: 7% 15%;
 }
 
@@ -99,14 +99,17 @@ p {
 /* testimonials */
 
 #testimonials {
-    padding: 7% 15%;
+    height: 700px;
     text-align: center;
     background-color: #ef8172;
     color: #fff;
 }
 
+
+
 .carousel-inner{
-    height: 500px;
+    height: 700px;
+    position: relative;
 }
 
 .dad {
@@ -114,6 +117,7 @@ p {
     height: auto;
     border-radius: 100%;
     margin: 20px;
+    position: static;
 }
 
 .rm {
@@ -124,8 +128,13 @@ p {
     text-align: center;
 }
 
+.carol-text {
+  margin: 2% 15%;
+}
+
 .text007 {
     font-size: 2.5rem;
+    margin: 2% 15%;
 }
 
 .l007 {
@@ -146,6 +155,7 @@ p {
     background-color: #ef8172;
     text-align: center;
     padding-bottom: 3%;
+
 }
 
 /* pricing */
