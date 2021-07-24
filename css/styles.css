@@ -2,18 +2,24 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-h1 { font-family: 'Montserrat', sans-serif; font-size: 3.5rem; line-height: 1.5; font-weight: 900;}
+h1 h2 h3 h4 h5 h6 {
+  font-family: 'montserrat';
+}
 
 h2 {
-    font-family: 'montserrat-bold';
+
     font-size: 3rem;
     line-height: 1.5;
 }
 
 h3 {
     font-weight: 2rem;
-    font-family: 'Montserrat';
+
     font-weight: 700;
+}
+
+.bighead {
+  font-family: 'Montserrat', sans-serif; font-size: 3.5rem; line-height: 1.5; font-weight: 900;
 }
 
 p {
@@ -51,14 +57,23 @@ p {
 }
 
 
+/* colors */
 
+.colorrr {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.whyte {
+  #fff;
+}
 
 /* topc */
 
 #title {
-    background-color: #ff4c68;
 
-    color: white;
+
+
 }
 
 #mainpatio {
@@ -102,7 +117,7 @@ p {
     text-align: center;
 
     background-color: #ef8172;
-    color: #fff;
+
 }
 
 
@@ -151,8 +166,10 @@ p {
 #press {
     background-color: #ef8172;
     text-align: center;
-    padding-bottom: 1%;
-  
+    position: relative;
+    bottom: 100px;
+
+
 
 }
 
@@ -168,12 +185,32 @@ p {
 
 
 
+#cta {
+
+  padding: 7% 3%;
+  text-align: center;
+
+}
+
+.cta {
+  font-family: 'Montserrat', sans-serif; font-size: 3rem; line-height: 1.5; font-weight: 900;
+}
+.dbtn {
+  margin: 5% 10% 5%;
+}
+
+#omgdl {
+  margin: 3% 1%;
+}
+
+.socialmarg {
+  margin: 20px 10px;
+}
 
 
+/* footer */
 
-
-.botspac {
-    margin-top: 20px;
-    background-color: #66BFBF;
-    padding: 10px 0 20px;
+#footer {
+  padding: 7% 15%;
+  text-align: center;
 }
